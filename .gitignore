@@ -1,0 +1,25 @@
+## Dependency directories
+node_modules/
+
+## package-lock
+package-lock.json
+yarn.lock
+
+## dotenv enviroment variables file
+*.env
+
+## Visual Studio
+.vscode
+.vs
+
+## Optional npm cache directory
+.npm
+
+## Git
+gitflow/
+
+## Logs
+logs
+
+## macOS DS_Store
+.DS_Store
