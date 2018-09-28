@@ -1,0 +1,21 @@
+{
+  "name": "smpp-server-simulator",
+  "version": "1.0.0",
+  "description": "SMPP Server simulator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "./node_modules/.bin/mocha ./test/server.js"
+  },
+  "repository": "https://github.com/theodorosidmar/smpp-server-simulator",
+  "author": "Sidmar Theodoro <theodorosidmar@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "smpp": "^0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
