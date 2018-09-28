@@ -1,0 +1,28 @@
+## Node modules
+node_modules/
+
+## Docker
+Dockerfile
+.dockerignore
+
+## Git
+.git
+.gitignore
+
+## Enviroment variables
+.env
+.env.sample
+
+## Read me
+readme.md
+
+## package-lock
+package-lock.json
+yarn.lock
+
+## Visual Studio
+.vscode
+.vs
+
+## macOS DS_Store
+.DS_Store
