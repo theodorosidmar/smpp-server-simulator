@@ -4,11 +4,17 @@ Simulates a SMPP server and receive **90%** of success and **10%** of errors on 
 
 ```
 1. Clone the repository
-2. Create .env file and set PORT=<VALUE>
-3. Run npm install
-4. Run npm start
-5. Connect and send smpp commands to it
+2. Run npm install
+3. Run npm start
+4. Connect and send smpp commands to it
 ```
+
+## TODO
+* Set success and errors percentage via configuration (maybe env variables)
+* Liveness check (?)
+* Readiness check (?)
+* Gracefully shutdown (?)
+* Testing all smpp callbacks
 
 ## License
 MIT
