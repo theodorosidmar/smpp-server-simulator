@@ -1,7 +1,16 @@
 FROM node:9.5.0-alpine
-RUN mkdir -p /smpp-server-simulator
-WORKDIR /smpp-server-simulator
-EXPOSE 2775
-COPY . /smpp-server-simulator
+
+ENV WORKDIR /smpp-server-simulator
+
+WORKDIR ${WORKDIR}
+
+COPY package.json ${WORKDIR}
+COPY package-lock.json ${WORKDIR}
+
 RUN npm install --no-cache --production
-CMD ["node", "."]
+
+COPY . ${WORKDIR}
+
+CMD npm start
+
+EXPOSE 2775
