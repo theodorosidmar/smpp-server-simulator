@@ -1,5 +1,5 @@
-const SmppServer = require('./src/server')
-require('dotenv').config()
+const server = require('./src/server')
+const log = require('./src/logger')
+const port = process.env.PORT || 2775
 
-const server = new SmppServer()
-server.listen()
+server.listen(port, () => log(`SMPP Server listening on ${port}`))
