@@ -1,10 +1,6 @@
 ## Dependency directories
 node_modules/
 
-## package-lock
-package-lock.json
-yarn.lock
-
 ## dotenv enviroment variables file
 *.env
 
