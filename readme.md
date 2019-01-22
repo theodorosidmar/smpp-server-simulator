@@ -1,6 +1,6 @@
-> Simulates a SMPP server.
+> Simulates an SMPP server.
 
-Simulates a SMPP server and receive **90%** of success and **10%** of errors on **submit_sm** (SMS sending) request.
+Simulates an SMPP server with a **1 in 10** chance of returning error status on **submit_sm** (SMS sending) requests.
 
 ```
 1. Clone the repository
@@ -10,7 +10,8 @@ Simulates a SMPP server and receive **90%** of success and **10%** of errors on 
 ```
 
 ## TODO
-* Set success and errors percentage via configuration (maybe env variables)
+* Set success and error percentage via configuration (maybe env variables)
+* Inbox simulation
 * Liveness check (?)
 * Readiness check (?)
 * Gracefully shutdown (?)
