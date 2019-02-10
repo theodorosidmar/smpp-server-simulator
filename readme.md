@@ -15,7 +15,7 @@ Simulates an SMPP server with a **1 in 10** chance of returning error status on 
 * Implement [winston](https://github.com/winstonjs/winston) or [bunyan](https://github.com/trentm/node-bunyan) as logging tool
 * Liveness check (?)
 * Readiness check (?)
-* Testing all smpp callbacks
+* Test all smpp callbacks
 
 ## License
 MIT
